@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "What's up", "Hey", "Greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {
+      "tag": "plot_chart",
+      "patterns": ["Plot a chart", "Show me a graph", "Can you draw a chart?", "I need a graph for data", "Display a chart"],
+      "responses": ["Sure! Please provide the data for the chart.", "I'd be happy to plot a chart for you. What data should I use?"],
+      "context_set": ""
+    },
+    {
+      "tag": "add_portfolio",
+      "patterns": ["Add to my portfolio", "I want to add stocks to my portfolio", "Include a stock in my portfolio", "Add a new stock to my portfolio"],
+      "responses": ["Got it! Let me add the stock to your portfolio.", "Your stock has been added to the portfolio."],
+      "context_set": ""
+    },
+    {
+      "tag": "remove_portfolio",
+      "patterns": ["Remove a stock from my portfolio", "Delete this stock", "I want to remove a stock from my portfolio", "Remove this stock", "Take out a stock from my portfolio"],
+      "responses": ["The stock has been removed from your portfolio.", "Successfully removed the stock from your portfolio."],
+      "context_set": ""
+    },
+    {
+      "tag": "show_portfolio",
+      "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio", "Display my portfolio", "Can you show my stock holdings?"],
+      "responses": ["Here are your stocks!", "This is your current stock portfolio."],
+      "context_set": ""
+    },
+    {
+      "tag": "stock",
+      "patterns": ["Tell me about a stock", "Give me details of a stock", "What is the current price of a stock?", "Stock information", "Can you provide stock details?"],
+      "responses": ["Please specify the stock name or symbol for details.", "I can help with that! Which stock would you like details about?"],
+      "context_set": ""
+    },
+    {
+      "tag": "portfolio_worth",
+      "patterns": ["What is my portfolio worth?", "How much is my portfolio valued at?", "Tell me the total value of my portfolio", "What is the value of my stocks?"],
+      "responses": ["Your portfolio is worth $X, based on current stock prices.", "The total value of your portfolio is $X."],
+      "context_set": ""
+    },
+    {
+      "tag": "portfolio_gains",
+      "patterns": ["What are my portfolio gains?", "How much have I gained in my portfolio?", "Tell me about my portfolio's gains", "What is the profit on my stocks?", "How much have I earned from my portfolio?"],
+      "responses": ["Your portfolio has gained $Y today.", "You've earned $Y in your portfolio so far."],
+      "context_set": ""
+    },
+    {
+      "tag": "bye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Exit", "Quit", "Close"],
+      "responses": ["Goodbye!", "See you next time!", "Take care!"],
+      "context_set": ""
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't understand that. Can you rephrase?", "I'm not sure how to respond to that."],
+      "context_set": ""
+    }
+  ]
+}
+
